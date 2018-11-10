@@ -12,6 +12,7 @@ alias cdorchard=". ~/.bashscripts/cdorchard.sh"
 alias setuporchard=". ~/.bashscripts/setuporchard.sh"
 alias openlocal="url http://localhost:3000"
 alias quickcommit=". ~/.bashscripts/quickcommit.sh"
+alias quickpersonalcommit=". ~/bashscripts/quickpersonalcommit.sh"
 alias tmux_start=". ~/.bashscripts/tmux_start.sh"
 alias love="/Applications/love.app/Contents/MacOS/love"
 
