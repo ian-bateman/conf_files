@@ -30,6 +30,7 @@ fi
 
 # appleseed
 alias ssa='ssh ian@192.168.1.10'
+alias ssar='ssh ian@173.95.79.146 -p 26'
 
 # silvia
 alias sss='ssh ian@192.168.1.9'
@@ -71,3 +72,12 @@ export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
+
+
+# -- VIRTUALENV CONFIG ----------------------------------------
+
+# pip should only run if there is a virtualenv currently activated
+export PIP_REQUIRE_VIRTUALENV=true
+# cache pip-installed packages to avoid re-downloading
+export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache
+
